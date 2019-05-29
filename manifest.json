@@ -1,0 +1,26 @@
+{
+	"name": "Tally Word Counter",
+	"short_name": "Tally",
+	"description": "Easily count the number of words, characters, and paragraphs on any site. Right click on any selected text and click Count.",
+	"version": "0.1",
+	"icons": {
+		"128": "128.png",
+		"48": "48.png",
+		"32": "32.png",
+		"16": "16.png"
+	},
+	"permissions": [
+		"contextMenus"
+	 ],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+			"css": ["style.css"]
+    }
+  ],
+	"manifest_version": 2
+}
