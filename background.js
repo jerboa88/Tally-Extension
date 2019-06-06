@@ -1,5 +1,5 @@
 ;(function(){
-	function count(info, tabs) {
+	function count(info) {
 		const text = info.selectionText,
 					len = text.length
 
@@ -90,13 +90,19 @@
 		}
 
 		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-			chrome.tabs.sendMessage(tabs[0].id, count);
+			chrome.tabs.sendMessage(tabs[0].id, count)
 		});
 	}
 
 	chrome.contextMenus.create({
+		id: 'jerboa88-Tally-count',
 		title: 'Tally Word Counter: Count',
-		contexts:['selection'],
-		onclick: count
+		contexts: ['selection']
+	});
+
+	chrome.contextMenus.onClicked.addListener(function(info, tab) {
+		if (info.menuItemId == 'jerboa88-Tally-count') {
+			count(info)
+		}
 	});
 })();
