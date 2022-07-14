@@ -1,11 +1,27 @@
-# Tally [Extension]
-![](https://img.shields.io/badge/type-Extension-yellow.svg "Project type")
-[![](https://img.shields.io/chrome-web-store/v/eggkmbghbmjmbdjloifaklghfiecjbnk.svg "View on the Chrome Web Store")][1]
-![](https://img.shields.io/github/repo-size/jerboa88/Tally-Extension.svg "Repository size")
-[![](https://img.shields.io/github/license/jerboa88/Tally-Extension.svg "Project license")][2]
+<!-- Project Header -->
+<div align="center">
+  <img class="projectLogo" src="icon_large.png" alt="Project logo" title="Project logo" width="256">
 
+  <h1 class="projectName">Tally</h1>
 
-A Chrome extension to easily count the number of words, characters, and paragraphs on any site. Right click on any selected text and click Count.
+  <p class="projectBadges">
+    <img src="https://img.shields.io/badge/type-Extension-ffc107.svg" alt="Project type" title="Project type"/>
+    <img src="https://img.shields.io/github/languages/top/jerboa88/Tally-Extension.svg" alt="Language" title="Language"/>
+    <a href="https://chrome.google.com/webstore/detail/tally-word-counter/eggkmbghbmjmbdjloifaklghfiecjbnk">
+      <img src="https://img.shields.io/chrome-web-store/v/eggkmbghbmjmbdjloifaklghfiecjbnk.svg" alt="View on the Chrome Web Store" title="View on the Chrome Web Store"/>
+    </a>
+    <img src="https://img.shields.io/github/repo-size/jerboa88/Tally-Extension.svg" alt="Repository size" title="Repository size"/>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/jerboa88/Tally-Extension.svg" alt="Project license" title="Project license"/>
+    </a>
+  </p>
+  
+  <p class="projectDesc">
+    A Chrome extension to easily count the number of words, characters, and paragraphs on any site. Right click on any selected text and click Count.
+  </p>
+  
+  <br/>
+</div>
 
 
 ## Installation
