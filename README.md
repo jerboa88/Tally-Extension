@@ -16,7 +16,7 @@
     </a>
   </p>
   
-  <p class="projectDesc" data-exposition="A Chrome extension to easily count the number of words, characters, and paragraphs on any site. This project is designed to be a more convenient alternative to my word counter website of the same name. The project is published on the Chrome Web Store and has over 200 users.">
+  <p class="projectDesc">
     A Chrome extension to easily count the number of words, characters, and paragraphs on any site
   </p>
   
