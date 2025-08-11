@@ -51,6 +51,10 @@ Contributions, issues, and forks are welcome but this is a hobby project so don'
 This project is licensed under the MPL 2.0 License. See [LICENSE][2] for details.
 
 
+## 🖇️ Related
+- **[Tally](https://tally.johng.io)**: Your favorite word counter, now with a dark mode! Count the number of characters, words, sentences, paragraphs, and lines in your text instantly
+
+
 ## 💕 Funding
 
 Find this project useful? [Sponsoring me](https://johng.io/funding) will help me cover costs and **_commit_** more time to open-source.
@@ -68,5 +72,3 @@ I appreciate the support!
 
 [1]: https://chrome.google.com/webstore/detail/tally-word-counter/eggkmbghbmjmbdjloifaklghfiecjbnk
 [2]: LICENSE
-
-
